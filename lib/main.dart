@@ -138,6 +138,7 @@ class _MyAppState extends State<MyApp> {
                                     decoration: InputDecoration(
                                       hintText: 'phone number', // Placeholder text
                                     ),
+                                    keyboardType: TextInputType.number,
                                   ),
 
                                   TextButton(
